@@ -60,9 +60,9 @@ The size of Ouput nodes is 4, which is the size of the actions.
 ```
 
 ###  The Results
-The average score over 100 continuous episodes from the training process is shown below, which shows that the DQN archived the training requirement in 410 episodes,
+The average score over 100 continuous episodes from the training process is shown below, which shows that the DQN archived the training requirement in 410 episodes.
 
-![Training logs](images/training_process.png)
+![Training process](images/training_process.png)
 
 Here is a plot of the scores over the episodes: 
 
