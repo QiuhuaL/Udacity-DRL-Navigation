@@ -72,6 +72,6 @@ Here is a plot of the scores over the episodes:
 One way to improve the performance is to train the agent directly from the directly observed raw pixels instead of using the environment's internal states. For this,  the convolutional neural network would be added at the input of the network in order to process the raw pixels values.
 
 The following DQN architectures could also potentially increase the performance:
-- [Double DQN](https://arxiv.org/abs/1509.06461), which is demonstrated effective in reducing the verestimate of action values under certain conditions.
+- [Double DQN](https://arxiv.org/abs/1509.06461), which is demonstrated effective in reducing the overestimate of action values under certain conditions.
 - [Prioritized experience replay](https://arxiv.org/abs/1511.05952), which is based on the idea that the agent can learn more effectively from some transitions than from others, and the more important transitions should be sampled with higher probability.
 - [Dueling DQN](https://arxiv.org/abs/1511.06581), which replaces the traditional Deep Q-Network architecture with a dueling architecture that can assess the value of each state, without having to learn the effect of each action.
