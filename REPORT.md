@@ -54,8 +54,8 @@ The Neural Networks have three fully connected layers:
 
 ```
 The size of the Input nodes is 37, which is the length of the state. 
-A fully Connected Layer (1024 nodes, Relu activation)
-A Fully Connected Layer (1024 nodes, Relu activation) 
+A fully Connected Layer (64 nodes, Relu activation)
+A Fully Connected Layer (64 nodes, Relu activation) 
 The size of Ouput nodes is 4, which is the size of the actions.
 ```
 
