@@ -24,9 +24,15 @@ The task is episodic, and in order to solve the environment, your agent must get
 
 ###  the Deep Q-Networks (DQN)
 
-This project implements the Deep Q-Networks as described in the [Nature publication : "Human-level control through deep reinforcement learning (2015)"](https://storage.googleapis.com/deepmind-media/dqn/DQNNaturePaper.pdf). It includes two major improvements over the naive deep Q-learning algorithm:
+This project implements the Deep Q-Networks as described in the [Nature publication : "Human-level control through deep reinforcement learning (2015)"](https://storage.googleapis.com/deepmind-media/dqn/DQNNaturePaper.pdf). 
+
+It includes two major improvements over the naive deep Q-learning algorithm:
  - Experience Replay: "In addition to breaking harmful correlations, experience replay allows us to learn more from individual tuples multiple times, recall rare occurrences, and in general make better use of our experience."
  - Fixed Q Targets: Without fixed Q target, we update a guess with a guess which can potentially lead to harmful correlations.
+
+The algorithm is shown in the picture blow (copied from the paper mentioned above):
+
+![DQN Algorithm](images/DQN_algorithm.PNG)
 
 ### The Python Code 
 
