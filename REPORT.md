@@ -32,7 +32,7 @@ It includes two major improvements over the naive deep Q-learning algorithm:
 
 The algorithm is shown in the picture blow (copied from the paper mentioned above):
 
-![DQN Algorithm](images/DQN_algorithm.PNG)
+![DQN Algorithm](images/dqn_algorithm.PNG)
 
 ### The Python Code 
 
